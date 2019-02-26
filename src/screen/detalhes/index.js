@@ -26,9 +26,7 @@ class Detalhes extends React.Component {
     render() {
         return (
             <ScrollView style={{flex: 1, backgroundColor: "#fff"}}>
-                
-
-
+                <Text>Detalhes</Text>          
             </ScrollView>
             
         );

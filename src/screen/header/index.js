@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, View, Text, StatusBar, TouchableOpacity, Image} from 'react-native';
 import { Icon } from 'native-base';
 import { Font } from 'expo'
+import Localizacao from '../localizacao';
 
 class Header extends React.Component {
 
@@ -50,6 +51,9 @@ class Header extends React.Component {
                         </View>
                     </View>
                 </View>
+
+                <Localizacao />
+
             </View>
         );
     }
